@@ -1,35 +1,73 @@
-html {
-    padding: 0;
-    margin: 0;
-}
-
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 20px;
-    font-size: 30px;
-    font-weight: 300;
     border-bottom: 2px solid black;
 }
 .header-logo {
-    height: 80px;
-    width: auto;
-    margin-right: 20px;
+    font-family: "Lato";
+    line-height: 1;
+}
+.header-main {
+    font-size: 35px;
+    font-weight: 300;
+}
+.header-sub {
+    font-size: 20px;
+    font-weight: 300;
+}
+.header-nav {
+    display: flex;
+}
+.header-nav * {
+    margin: 0 20px;
+}
+.header-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #212529;
+}
+.header-contact {
+    background: rgb(62 193 223);
+    padding: 7px 15px;
+    border: 8px;
+    text-align: center;
+}
+.header-contact a {
+    text-decoration: none;
+    color: white;
 }
 
-.info {
+
+.about-us {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 30px;
     font-size: 18px;
+    margin-bottom: 30px;
+    padding: 20px;
+    line-height: 1;
 }
+.about-us-catch-phrase {
+    font-size:24px;
+    font-style: italic;
+}   
+
+.products {
+
+}
+.products-pdf {
+    width:90%;
+    margin: 0 auto;
+}
+
 
 .contact {
     padding: 18px;
     border-radius: 8px;
     text-align: center;
     font-size: 18px;
+    margin-bottom: 45px;
 }
 .contact-head {
     font-size: 20px;
