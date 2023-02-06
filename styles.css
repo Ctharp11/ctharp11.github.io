@@ -1,0 +1,50 @@
+/* sticky footer */
+html, body {
+    height: 90%;
+    margin: 0;
+  }
+.wrapper {
+    min-height: 100%;
+}
+.footer,
+.push {
+    height: 50px;
+}
+
+section img {
+    margin: 20px;
+}
+
+section button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    background: hsl(340deg 100% 32%);
+    border: none;
+    border-radius: 12px;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+.front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    width: 300px;
+    height: 200px;
+    transform: translateY(-10px);
+    will-change: transform;
+    transition: transform 250ms;
+  }
+section button:active .front {
+    transform: translateY(-2px);
+}
+.footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
