@@ -1,0 +1,49 @@
+.social-media {
+  margin-top: -13rem;
+    & ul {
+        list-style-type: none;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        width: 45rem;
+        margin-top: 4rem;
+
+        @media screen and (max-width: 600px) {
+          width: 80%;
+        }
+
+        @media screen and (max-width: 240px) {
+          display:block;
+          text-align: center;
+          margin-top: -19rem;
+        }
+        
+      }      
+      
+      .fa-linkedin:hover,
+      .fa-github-alt:hover,
+      .fa-twitter:hover {
+          color: $color-grey-light;
+          transform: scale(1.2);
+      }
+      
+      .resume {
+        border: solid $color-grey-light;
+        color: $color-grey-light
+      }
+      
+      .resume:hover {
+        color: $color-grey-light;
+        border: solid $color-grey-light;
+        transform: scale(1.1);
+      }
+      
+      .resume:focus {
+        color: $color-grey-light;
+      } 
+}
+
+.btn-social {
+  color: $color-grey-light !important;
+}
+

@@ -1,0 +1,59 @@
+.main {
+    &__about-me {
+
+        &--hr {
+            height:2px;
+            background-color: $color-grey-light;
+            width: 10rem;
+            position: relative;
+            top: -12rem;
+            left: 50%;
+            transform: translateX(-50%);
+
+            @media screen and (max-width: 240px) {
+                top: -21rem;
+
+            }
+        }
+        &--img-me {
+            height: 25rem;
+            width:25rem;
+            object-fit:cover;
+            border-radius: 50%; 
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-bottom: 4rem;
+
+            @media screen and (max-width: 300px) {
+                height: 20rem;
+                width: 80%;
+            }
+        }
+
+        &--headtext {
+            font-size:2.8rem;
+            display: block;
+            margin-bottom:2rem;
+            
+        }
+
+        &--text {
+            font-size: 2rem;
+            text-align: center;
+
+            @media screen and (max-width: 600px) {
+                width:90%;
+                margin: 0 auto;
+            }
+        }
+
+        
+    } 
+
+    &-portfolio-head {
+        padding-top: 3rem;
+    }
+}
+
+

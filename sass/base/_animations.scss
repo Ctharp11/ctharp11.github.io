@@ -1,0 +1,23 @@
+@keyframes navMove {
+    0% {
+        opacity: 0;
+        transform: translateY(-10rem);
+    }
+    80% {
+        opacity: .8;
+        transform: translateY(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

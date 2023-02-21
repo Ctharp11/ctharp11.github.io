@@ -1,0 +1,24 @@
+.skills {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    background-image: radial-gradient($color-primary-blue-lighter, $color-primary-blue);
+
+    &__nav {
+        list-style-type: none;
+        margin: 0 auto;
+
+        &--li {
+            padding: 1rem;
+        }
+    }
+    &--hr {
+        height: 1px;
+        background-color: rgba($color-grey-light, .7);
+        width: 10rem;
+        margin: 0 auto;
+    }
+}
+
+
+

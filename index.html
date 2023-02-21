@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cameron Tharp | Web Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAVFFOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEQAREAAAABEAAAARAAAAEQAAABEAAAARAAAAEQAAABEAAAARAAABEAAAAAEQABEAAAAAABEAEQAAAAAAEQABEAAAAAEQAAARAAAAEQAAABEAAAARAAAAEQAAABEAAAARAAAAEQAAAAERABEQAAAAAAAAAAAAD//wAA8Y8AAOfnAADn5wAA5+cAAOfnAADP8wAAn/kAAJ/5AADP8wAA5+cAAOfnAADn5wAA5+cAAPGPAAD//wAA" rel="icon" type="image/x-icon" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__link" href="#about">About Me</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#contact">Contact and Resume</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#portfolio">Portfolio Pieces</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="header__primary" data-aos="fade-zoom-in">
+        <div class="header__primary--logo">
+            <div class="header__primary--logo-name">
+                <span class="header__primary--logo-curlies"> { </span> 
+                    Cameron Tharp
+                <span class="header__primary--logo-curlies"> } </span> 
+            </div>
+            <div class="header__primary--logo-title">software developer</div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main__about-me u-margin-bottom-big" id="about">
+
+            <div class="row">
+                    <div class="main__about-me--box-main">
+
+                        <img class="main__about-me--img-me" src="img/mepicreal.png" alt="me">
+                        
+                        <div class="main__about-me--text">
+
+                            <span class="main__about-me--headtext"> Hi, I'm Cameron. </span>
+
+                            I've been a full time software developer since 2018, and I'm great at building web applications. 
+                            <br>
+                            I enjoy being part of a development team that appreciates the software development process; collaboraing on architecture design, code standards, business requirement gathering, and in assigning tasks are a few steps of what makes a successful product.
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="main__contact-me u-margin-bottom-big" id="contact">
+
+            <h1 class="main--subhead main--subhead-white">
+                Contact and Resume
+            </h1>
+
+            <div class="main__about-me--hr"> </div>
+            <div class="social-media">
+                <ul>
+                  <li><a href="https://www.linkedin.com/in/cameron-tharp-webdev/" target="_blank" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin fa-2x"></i></a></li>
+                  <li><a href="https://github.com/Ctharp11" target="_blank" class="btn-social btn-outline"><span class="sr-only">Github</span><i class="fa fa-fw fa-github-alt fa-2x"></i></a></li>
+                  <li><a href="img/tharp_resume.pdf" class="btn resume" download="img/tharp_resume.pdf"><i class="fa fa-download"></i> Resume</a> </li>
+                </ul>
+              </div>
+        </div>
+
+        <div class="main__portfolio u-margin-bottom-big" id="portfolio">
+            <h1 class="main--subhead u-margin-bottom-medium main-portfolio-head">
+                Portfolio Pieces
+            </h1>
+
+            <div class="banner">
+                Note: The portfolio pieces below were made in or prior to 2018 to showcase my JavaScript skills. Since then, I've been busy working on production environment projects every day! I've expanded my skillset to include the .NET framework, C#, SQL Server, and Entity Framework. In addition, I have experience analyzing code vulnerabilities and running static and dynamic code scans, hosting application in the cloud, and more.
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="portfolio-image" data-index=1>
+                        <img class="portfolio-image--img" src="img/tx_food_fight.png" alt="portfolio1">
+                    </div>
+                    <div class="portfolio-image--text u-margin-top-big">
+                        <div class="portfolio-image--header"> Texas Food Fight</div>
+                        Texas Food Fight is an app that allows users to enter Texas Restaurants in an attempt to prove which city has the best cuisine in the state. 
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="portfolio-image" data-index=2>
+                        <img class="portfolio-image--img" src="img/instacool.png" alt="portfolio2">
+                    </div>
+                    <div class="portfolio-image--text u-margin-top-big">
+                        <div class="portfolio-image--header"> Instacool </div>
+                        Behold InstaCool, the internet's #1 second-rate photo-uploading app. Upload, like, and comment on photos. In a world of endless camera ops, the only question is, are you InstaCool cool? The answer? Yes, yes you are 😎.    
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="portfolio-image" data-index=3>
+                        <img class="portfolio-image--img" src="img/vintage-things.png" alt="portfolio1">
+                    </div>
+                    <div class="portfolio-image--text u-margin-top-big">
+                        <div class="portfolio-image--header"> Vintage Things </div>
+                        Vintage Things is a prototype of an ecommerce website where people can buy and sell their vintage items. Embrace your inner hipster and get your vintage on!
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                        <div class="portfolio-image" data-index=4>
+                            <img class="portfolio-image--img" src="img/sportsbro.png" alt="portfolio2">
+                        </div>
+                        <div class="portfolio-image--text u-margin-top-big">
+                            <div class="portfolio-image--header"> Sports Bro </div>
+                            If you love perusing all the sports news, than Sports Bro is for you. Sports Bro gives you easy access to top headlines from ESPN, Bleacher Report, Fox Sports, and more! 
+                        </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="portfolio-image" data-index=5>
+                        <img class="portfolio-image--img" src="img/travelaustin.png" alt="portfolio1">
+                    </div>
+                    <div class="portfolio-image--text u-margin-top-big">
+                        <div class="portfolio-image--header"> Travel Austin </div>
+                        Travel Austin is a travel agency that allows the user to book some of the best tours in one the of best cities in the country, Austin, TX! 
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="portfolio-image" data-index=6>
+                        <img class="portfolio-image--img" src="img/api-bakery.png" alt="portfolio2">
+                    </div>
+                    <div class="portfolio-image--text u-margin-top-big">
+                        <div class="portfolio-image--header"> API Bakery </div>
+                        Want to see 6 of the hottest APIs in action? API Bakery is cooking up some seriously delicous web cookies. See in action real-life data from Iframely, News API, Zomato, Giphy, Youtube, and Spotify. 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__skills" id="skills">
+            <h1 class="main--subhead u-margin-bottom-medium">
+                Some things I've worked with:
+            </h1>
+
+            <div class="skills">
+                <ul class="skills__nav">
+                    <div class="skills--hr"> </div>
+                    <li class="skills__nav--li">CSS, Bootstrap, Sass, CSS Animations </li>
+                    <div class="skills--hr"> </div>
+                    <li class="skills__nav--li">Responsive Design</li>
+                    <div class="skills--hr"> </div>
+                    <li class="skills__nav--li">JavaScript</li>
+                    <div class="skills--hr"> </div>
+                    <li class="skills__nav--li">jQuery</li>
+                    <div class="skills--hr"> </div>
+                    <li class="skills__nav--li">React and Redux</li>
+                    <div class="skills--hr"> </div>
+                    <li class="skills__nav--li">Node and Express </li>
+                    <div class="skills--hr"> </div>
+                    <li class="skills__nav--li">RESTful APIs</li>
+                    <div class="skills--hr"> </div>
+                    <li class="skills__nav--li">MongoDB and mySQL</li>
+                    <div class="skills--hr"> </div>
+                    <li class="skills__nav--li">SQL Server and Entity Framework</li>
+                    <div class="skills--hr"> </div>
+                    <li class="skills__nav--li">.Net and C#</li>
+                </ul>
+            </div>
+        </div> 
+
+    </main>
+
+    <section class="modal-outer modal-outer-away"> 
+        <div class="modal-inner"> 
+            <div class="modal-x"> X </div>
+            <div id="modal-header"> </div>
+            <div id="modal-img"> </div>
+            <div id="visit"></div>
+            <div id="modal-content"> </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+
+    </footer>
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/teams.js"></script>
+</body>
+</html>
