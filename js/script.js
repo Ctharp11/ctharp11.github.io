@@ -36,7 +36,7 @@ for (let i = 0; i < portImage.length; i++) {
                 $('.modal-outer-away').toggleClass('modal-outer-in', true);
                 $('#modal-header').html('Vintage Things');
                 $('#modal-img').html('<img class="modal-image" src="img/vintage-things.png" alt="vintage things" />')
-                $('#visit').html('<a class="modal-visit" href="http://vintage-things.camerontharp.com/" target="_blank"> Click here to visit Vintage Things </a>')
+                //$('#visit').html('<a class="modal-visit" href="http://vintage-things.camerontharp.com/" target="_blank"> Click here to visit Vintage Things </a>')
                 $('#modal-content').html("<span> Vintage Things is a prototype of an ecommerce website where people can buy and sell their vintage items. Embrace your inner hipster and get your vintage on! <br><br> Front-end, mobile-responsive project built with Sass, JavaScript, and jQuery. Firebase used for saving items in the shopping cart and persistence. </span>");
                 return;
             case '4': 
@@ -52,7 +52,7 @@ for (let i = 0; i < portImage.length; i++) {
                 $('.modal-outer-away').toggleClass('modal-outer-in', true);
                 $('#modal-header').html('Travel Austin');
                 $('#modal-img').html('<img class="modal-image" src="img/travelaustin.png" alt="travel austin" />')
-                $('#visit').html('<a class="modal-visit" href="http://travel-austin.camerontharp.com" target="_blank"> Click here to visit Travel Austin </a>')
+                //$('#visit').html('<a class="modal-visit" href="http://travel-austin.camerontharp.com" target="_blank"> Click here to visit Travel Austin </a>')
                 $('#modal-content').html("<span> Travel Austin is a travel agency that allows the user to book some of the best tours in one the of best cities in the country, Austin, TX! <br><br>Front-end, mobile-responsive project meant to showcase how CSS can replace some JavaScript and jQuery, such as in dropdowns and animations. Built with Sass. JavaScript only used once to toggle a click event to close the dropdown. </span>");
                 return;
             case '6': 
