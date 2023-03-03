@@ -267,6 +267,15 @@ body {
     width: 10rem;
     margin: 0 auto; }
 
+footer {
+  text-align: center;
+  padding: 20px; }
+  footer button {
+    background: black;
+    color: white;
+    border-radius: 8px;
+    padding: 5px; }
+
 .row {
   max-width: 100rem;
   margin: 0 auto; }
