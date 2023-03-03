@@ -1,0 +1,16 @@
+ {
+    "name": "Cameron Tharp - A Software Developer",
+    "short_name": "Cameron T.",
+    "start_url": "/",
+    "orientation": "landscape",
+    "theme_color": "#2980b9",
+    "scope": "/",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "img/icon-512.png",
+            "sizes": "104x104",
+            "type": "image/png"
+        }
+    ] 
+ }
