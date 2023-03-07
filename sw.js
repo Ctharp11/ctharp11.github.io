@@ -6,6 +6,7 @@ const contentToCache = [
   "css/style.css",
   "js/app.js",
   "js/script.js",
+  "js/textTransition.js",
   "img/icon-512.png",
   "img/tharp_resume.pdf",
   "https://type.fit/api/quotes",
