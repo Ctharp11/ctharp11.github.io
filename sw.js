@@ -1,4 +1,4 @@
-const cacheName = "Cameron Tharp Portfolio-v1";
+const cacheName = "Cameron Tharp Portfolio-v2";
 
 const contentToCache = [
   "/",
@@ -25,7 +25,6 @@ self.addEventListener("install", (e) => {
 self.addEventListener("fetch", (e) => {
   e.respondWith(
     (async () => {
-      console.log("e.request", e.request);
       const r = await caches.match(e.request);
       console.log(`[Service Worker] Fetching resource: ${e.request.url}`);
       if (r) {
