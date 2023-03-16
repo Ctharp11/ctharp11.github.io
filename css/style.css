@@ -203,16 +203,16 @@ body {
 .modal-inner {
   background-color: white;
   position: relative;
-  top: 4rem;
+  top: 10rem;
   padding-bottom: 3rem;
-  width: 80vw;
+  width: 70rem;
   margin: 0 auto;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4); }
 
 .modal-x {
   font-size: 1.6rem;
   float: right;
-  padding: 1rem; }
+  padding: 2rem; }
   .modal-x:hover {
     cursor: pointer; }
 
@@ -234,6 +234,10 @@ body {
   .modal-visit:hover, .modal-visit:visited, .modal-visit:focus {
     color: white;
     text-decoration: none; }
+
+@media screen and (max-width: 600px) {
+  .modal-inner {
+    width: 90%; } }
 
 #modal-header {
   font-size: 2rem;

@@ -53,7 +53,7 @@ for (let i = 0; i < portImage.length; i++) {
                 $('#modal-header').html('Travel Austin');
                 $('#modal-img').html('<img class="modal-image" src="img/travelaustin.png" alt="travel austin" />')
                 //$('#visit').html('<a class="modal-visit" href="http://travel-austin.camerontharp.com" target="_blank"> Click here to visit Travel Austin </a>')
-                $('#modal-content').html("<span> Travel Austin is a travel agency that allows the user to book some of the best tours in one the of best cities in the country, Austin, TX! <br><br>Front-end, mobile-responsive project meant to showcase how CSS can replace some JavaScript and jQuery, such as in dropdowns and animations. Built with Sass. JavaScript only used once to toggle a click event to close the dropdown. </span>");
+                $('#modal-content').html("<span> Travel Austin is a travel agency that allows the user to book some of the best tours in one the of best cities in the country, Austin, TX! <br><br>Front-end, mobile-responsive project meant to showcase how CSS can replace some JavaScript and jQuery, such as in dropdowns and animations. Built with Sass. JavaScript only used once to toggle a click event to close the dropdown. </span> <div><a target='_blank' href='https://github.com/Ctharp11/travel-austin'>Click here to see the code.</a></div>");
                 return;
             case '6': 
                 closeModal()
@@ -62,6 +62,14 @@ for (let i = 0; i < portImage.length; i++) {
                 $('#modal-img').html('<img class="modal-image" src="img/api-bakery.png" alt="api bakery" />')
                 //$('#visit').html('<a class="modal-visit" href="http://api-bakery.camerontharp.com/" target="_blank"> Click here to visit API Bakery </a>')
                 $('#modal-content').html("<span> Want to see 6 of the hottest APIs in action? API Bakery is cooking up some seriously delicous web cookies. See in action real-life data from Iframely, News API, Zomato, Giphy, Youtube, and Spotify. <br><br> Front-end, mobile-responsive project built with Sass, JavaScript, and using AJAX to query the APIs. Custom bunny logo made in Illustrator. </span>");
+                return;
+            case '7':
+                closeModal()
+                $('.modal-outer-away').toggleClass('modal-outer-in', true);
+                $('#modal-header').html('Progressive Web App Starter Template');
+                $('#modal-img').html('<img class="modal-image" src="img/pwa-template.png" alt="pwa template" />')
+                //$('#visit').html('<a class="modal-visit" href="http://travel-austin.camerontharp.com" target="_blank"> Click here to visit Travel Austin </a>')
+                $('#modal-content').html("<span>This PWA starter template comes with a Web App Manifest and Service Worker file. Open and customize to start creating your PWA.</span> <div><a target='_blank' href='https://github.com/Ctharp11/pwa-template/blob/main/README.md'>View the Readme for technical details.</a></div>");
                 return;
             default:
                 return;

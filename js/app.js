@@ -31,5 +31,5 @@ const notifBody = quote
 const options = {
     body: notifBody,
 };
-new Notification(notifTitle, options); // not working on chrome. test in safari
+new Notification(notifTitle, options); // doesn't work on all browsers or devices
 }
