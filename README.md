@@ -1,5 +1,3 @@
 # portfolio
 
-Portfolio at camerontharp.com 
-
-Made with Sass
+Portfolio for www.camerontharp.com 
