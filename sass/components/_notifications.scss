@@ -1,0 +1,10 @@
+.notification {
+  &-button {
+    background: $color-primary-green;
+    border: none;
+    height: 100%;
+    width: 100%;
+    color: $color-grey-light;
+    font-size: 2;
+  }
+}

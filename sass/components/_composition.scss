@@ -1,58 +1,50 @@
 .portfolio-image {
-    
-    text-align: center;
-    -webkit-transition: transform .3s ease;
-    transition: transform .3s ease;
-    box-shadow: 0 1.5rem 2rem rgba($color-black, 0.3);
-    height: 30rem;
-    width:30rem;
-    backface-visibility: hidden;
-    margin: 0 auto;
+  text-align: center;
+  -webkit-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+  box-shadow: 0 1.5rem 2rem rgba($color-black, 0.3);
+  height: 30rem;
+  width: 30rem;
+  backface-visibility: hidden;
+  margin: 0 auto;
+
+  @media screen and (max-width: 400px) {
+    height: 25rem;
+    width: 85%;
+  }
+
+  &--img {
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover;
+    margin-top: 3rem;
 
     @media screen and (max-width: 400px) {
-        height:25rem;
-        width:85%;
-    }
-
-    &--img {
-        height:25rem;
-        width:25rem;
-        object-fit:cover;
-        margin-top:3rem;
-
-        @media screen and (max-width: 400px) {
-            height:20rem;
-            width:80%;
-        }
-
-        &:hover {
-            cursor: pointer !important;
-        }
-    }
-
-    &--header {
-        font-size: 2rem;
-        font-weight: 700;
-
-
-    }
-
-    &--text {
-        text-align: center;
-        font-size: 1.6rem;
-        color: $color-grey-darker;
-        letter-spacing: 1.1px; 
-        border-bottom: 1px solid rgba($color-grey-light, 0.8);
-        height:18rem;
+      height: 20rem;
+      width: 80%;
     }
 
     &:hover {
-        transform: translateY(-1rem) scale(1.04);
-        box-shadow: 0 2rem 3rem rgba($color-black, 0.4);
-        cursor: pointer !important;
+      cursor: pointer !important;
     }
+  }
+
+  &--header {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  &--text {
+    text-align: center;
+    font-size: 1.6rem;
+    color: $color-grey-darker;
+    letter-spacing: 1.1px;
+    border-bottom: 1px solid rgba($color-grey-light, 0.8);
+  }
+
+  &:hover {
+    transform: translateY(-1rem) scale(1.04);
+    box-shadow: 0 2rem 3rem rgba($color-black, 0.4);
+    cursor: pointer !important;
+  }
 }
-
-
-
-
