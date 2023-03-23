@@ -162,12 +162,27 @@
               <div>Clicking the image will open the project in Github.</div>
             </div>
           </div>
+          <div class="col-1-of-2">
+            <div class="portfolio-image">
+              <button class="notification" id="notifications">
+                Send dummy notification
+              </button>
+            </div>
+            <div class="portfolio-image--text u-margin-top-big">
+              <div class="portfolio-image--header">Get quote from your OS</div>
+              <div>
+                This profile is a PWA, which allows this website to have native
+                features. Click the button above to get a random quote from your
+                OS. You must allow notifications from this site.
+              </div>
+              <div>
+                You must be on a supported browser for this to work. Try Chrome
+                or Edge on Desktop.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <!-- TODO: Add this to the playground -->
-      <!-- <div>This is a playground button that explores a sending notifications from your OS. After clicking you must allow notifications from camerontharp.com</div>
-      <button class="notification" id="notifications">Send dummy notification</button> -->
 
       <div class="main__skills" id="skills">
         <h1 class="main--subhead u-margin-bottom-medium">
@@ -208,9 +223,9 @@
 
     <footer class="footer"></footer>
     <script type="text/JavaScript">
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/sw.js");
-      }
+      // if ("serviceWorker" in navigator) {
+      //   navigator.serviceWorker.register("/sw.js");
+      // }
       const navItems = document.querySelectorAll(".navigation__link");
       Array.from(navItems, item => {
         item.addEventListener("click", function() {
