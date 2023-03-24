@@ -1,10 +1,22 @@
-const notificationButton = document.getElementById("notifications");
+const notificationButton = document.getElementById("notification-button");
+
+const debounce = (func, delay = 300) => {
+  let timeout;
+  return function () {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => {
+      func.apply(this, arguments);
+    }, delay);
+  };
+};
+
+const processChange = debounce(() => randomNotification(), 1000);
 
 if (notificationButton) {
   notificationButton.addEventListener("click", () => {
     Notification.requestPermission().then((result) => {
       if (result === "granted") {
-        randomNotification();
+        processChange();
       }
     });
   });
